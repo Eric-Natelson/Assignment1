@@ -12,7 +12,7 @@
 #define COMMONSPEAR_H
 
 /**
- * Defines the behavior of a common spear (hitpoint = 40, ignores 20% of 
+ * Defines the behavior of a common spear (hitpoint = 40, ignores 20% of
  * armor points)
  */
 class CommonSpear : public Weapon {
@@ -20,10 +20,9 @@ public:
 
     CommonSpear() : Weapon("Common spear", 40.0) {
     }
-    virtual ~CommonSpear() {}; 
+    virtual ~CommonSpear() {};
     virtual double hit(double armor);
 
 };
 
 #endif /* COMMONSPEAR_H */
-
