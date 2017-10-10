@@ -1,0 +1,31 @@
+a)  Counting objects: 4, done.
+    Delta compression using up to 4 threads.
+    Compressing objects: 100% (3/3), done.
+    Writing objects: 100% (4/4), 453 bytes | 226.00 KiB/s, done.
+    Total 4 (delta 1), reused 0 (delta 0)
+    remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+    To https://github.com/Eric-Natelson/Assignment1.git
+       6d74393..ce84136  master -> master
+    Branch master set up to track remote branch master from origin.
+
+b)  9 commits
+    command: git rev-list --all --count
+
+c)  Date:   Wed Sep 27 16:31:42 2017 -0500
+    command: git log -- .gitignore
+
+d)
+e)  Branches can be used when two developers are developing different features for the project and then want to
+    merge the two when both are finished with their respective coding. Another use of branches is to have different versions
+    of the same system that (perhaps) require slightly different code to run on a different machine.
+
+f)  Git log shows the history of commits that were made whereas the git status shows the differences between the index file
+    and the current head commit.
+
+g)  git log --follow Weapons.h
+
+h)  git log --grep=<file>
+
+i)  Inheritance: The ability of objects to take on properties of existing objects.
+    Polymorphism: A programming language's ability to process objects differently depending on their data type or class.
+    Encapsulation: Binding together the data and functions that manipulate the data, and that keeps both safe from outside interference and misuse.
