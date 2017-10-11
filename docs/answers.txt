@@ -1,0 +1,3 @@
+    Polymorphism is being used in this instance because the Weapons class distributes different functionality on
+    the core variables through the use of different types of weapons classes. An example of this would be that the CommonSpear weapon
+    can interact with damage values of the characters by inheriting variables from the Weapons abstract class.
