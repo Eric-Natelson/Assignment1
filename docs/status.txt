@@ -1,1 +1,4 @@
-
+wc-dhcp76d074:Assignment1 EricNatelson$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
