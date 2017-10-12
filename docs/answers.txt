@@ -14,7 +14,9 @@ b)  9 commits
 c)  Date:   Wed Sep 27 16:31:42 2017 -0500
     command: git log -- .gitignore
 
-d)
+d)  commit cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+    commit 36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+
 e)  Branches can be used when two developers are developing different features for the project and then want to
     merge the two when both are finished with their respective coding. Another use of branches is to have different versions
     of the same system that (perhaps) require slightly different code to run on a different machine.

@@ -22,7 +22,7 @@ half of the armor the weapon hits.)
  class CrazyRandomSword : public Weapon {
  public:
 
-     CrazyRandomSword() : Weapon("Crazy random sword", 50.0) {
+     CrazyRandomSword() : Weapon("Crazy random sword", 0.0) {
      }
      virtual ~CrazyRandomSword() {};
      virtual double hit(double armor);
